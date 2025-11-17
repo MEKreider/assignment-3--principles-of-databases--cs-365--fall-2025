@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+fieldset {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+label {
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+textarea,
+select {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #3700b3;
+}
+
+select {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+textarea {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+}
+
+input[type="submit"]:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #6200ea;
+    outline: none;
+}
+
+button {
+    color: #ffffff;
+    background-color: #6200ea;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+input[id="clear-form-button"],
+input[id="insert_user_button"],
+input[id="insert_website_button"],
+input[id="insert_account_button"],
+input[id="update_button"],
+input[id="delete_button"] {
+    background-color: #6200ea;
+    color: white;
+}
+
+input[id="clear-form-button"]:hover,
+input[id="insert_user_button"]:hover,
+input[id="insert_website_button"]:hover,
+input[id="insert_account_button"]:hover,
+input[id="update_button"]:hover,
+input[id="delete_button"]:hover {
+    background-color: #3700b3;
+}

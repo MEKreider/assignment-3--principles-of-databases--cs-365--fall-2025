@@ -1,0 +1,15 @@
+<?php
+
+define("DBNAME", "student_passwords");
+define("DBHOST", "localhost");
+define("DBUSER", "passwords_user");
+define("DBPASS", "");
+define("INIT_VECTOR", "0xA55B9BD9476FBF3F137C1D9E28205D94");
+define("KEY_STR",     "0xA7E845B0854294DA9AA743B807CB67B19647C1195EA8120369F3D12C70468F29");
+
+define("PDO_OPTIONS", [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES   => false
+]);
+?>
